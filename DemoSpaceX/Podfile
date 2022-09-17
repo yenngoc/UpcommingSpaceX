@@ -1,0 +1,15 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+def app_pods
+  pod 'Alamofire'
+  pod 'SwiftyJSON'
+  pod 'NKButton'
+  pod 'FrameLayoutKit'
+end
+def test_pods
+
+end
+
+target 'DemoSpaceX' do
+  app_pods
+end
